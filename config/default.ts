@@ -4,9 +4,85 @@ export default {
     saltWorkFactor: 10,
     accessTokenTtl: "15m",
     refreshTokenTtl: "1y",
-    accessTokenPrivateKey: ``,
-    accessTokenPublicKey: ``,
-    refreshTokenPrivateKey: ``,
-    refreshTokenPublicKey: ``,
+    accessTokenPrivateKey: `
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQBMlBn+cO5xOLq4nSJEdEuvbZPigZMXYpAAX03wnK1bF1hM/VOO
+YpzDE1yo4dqnx8qO7/GXh8izSX9dQ6DnlvsxoAOB2EtOopp8swfDZrYHi0HRsaIL
++xLj5KgpeGc0gKvxNMiVAjFsNnH3X/yTn63CRbXqhXy4dMh3DaePP2iXCerpihzt
+LT+cgV6Tv90h8AjkPUpid+LbyzgJTG01eR4R48mOKs8hi5Aist7fM/0OK8RWnBxP
+5njs2rgNvSIyd410UsHBvNIJzS78p03SyQe5GlflN6AHYsrJAvnRT3kxj5zl1hYY
+f6H5ib9icOVAjQlEyOeGAvPfRt5Za8FGcDS/AgMBAAECggEAKnGbxq8JOa/brh9J
+su9SU7VEVjLDOB7k+Y/ZPxdX7jkOM/3kpfJ6OJUuslwcOQo/duH+4aHc16JQ+XxW
+XoYMTAEIcJtVggwV3C/OibsQATZqELOHwWQzoCRIIFQfv7XhlxtOYWiJxBSZLicB
+c0D5qcfBgG7kJch0o6fpyze13KCC5lefYiQsfEnGl5F5YY1nW0VlLIeT/CzUyKDr
+J+bdPtvHrlkHpLzDeVIxM1Mqfb8h/iQUAcwKN/txiojY5SY8/lXiITKZVb4+iviD
+ur2hrptVCbqdonFXuLtNQPffbjeuHo2npESVSrnT5jqtAMZ7xB6p4k1TzNXQD8+k
+U0++AQKBgQCXfvb32eWvD8l4I0EYw5Dx/o4T/OLazHwV0XF+pVBB8mcZ+PadDt6o
+uOfDX/3rVxBUeNm7SpL6xYH+/4BZUSf3zplwMnC+OSmRreJQ0uUbWO5iz4wNvACL
+8F/L/y9Fi+vD/Rb4+Y/EIMbtyqv8YqyXrabfjlQlZ5JLqEkYhPG6QQKBgQCBZ0lx
+LYc6nv+KallhJOYsSgnCCkRfyoSazs33Nj7BhulfFVNjgczmIUZskBER9ml/uojT
+mleNWS0SqPWio7EqbxkitpcEyXQVOPTdhAnzHJAtiw8Pn3viQNZUx0roa2BFkZUY
+Ft9y1u9QOaZ/S9o1seWh6Qd6z3rcOufS/jAu/wKBgQCP8aU7bqBcLAXjzquFmhxY
+suPQfhIWjwC/wleyW+TcJDRuay33oS9S5Q3hh42+VOVBPeqzmHH7MDsKTT5on0H4
+pScJggO52ppyvuMwpJHn4CHxZP7P9fgW/vgm3nrN+9qySAHR414EnpglTNMJZcBU
+Bj1uYM/3Emfg1y9MytTbgQKBgEorpZDVg7k6AUaZBnoD6FpiZY1uzRoKvk7tUmjs
+ErRiW8lAM/fJImSVlgQL33zoPDgV9u8yfBRslMUpSwHZyWaFH2ciORVpUrwHVXLS
+h9FtAcbY+dz+kMdyWmdlg64MPbYiZ87S7Wipgan+IUy9cWltei1/n+Xonoc0zEPH
+pl6JAoGAFxvkadjVf56BtlQBDpHtJkPgIoKNW02pSD4adFZ5PP1CJwm9YHOq+8TX
+m3OFafgsLZWdNDE9shbjvfG9cBEWFfBKIhCKOxvAy6s7RlYe2BxilXFoSWG7QXOZ
+RAPg7+vwvt7J1WS7zL2QmDFOuU55qjGJAoN5tgxGhVKbeC2Qlek=
+-----END RSA PRIVATE KEY-----
+    `,
+    accessTokenPublicKey: `
+-----BEGIN PUBLIC KEY-----
+MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQBMlBn+cO5xOLq4nSJEdEuv
+bZPigZMXYpAAX03wnK1bF1hM/VOOYpzDE1yo4dqnx8qO7/GXh8izSX9dQ6Dnlvsx
+oAOB2EtOopp8swfDZrYHi0HRsaIL+xLj5KgpeGc0gKvxNMiVAjFsNnH3X/yTn63C
+RbXqhXy4dMh3DaePP2iXCerpihztLT+cgV6Tv90h8AjkPUpid+LbyzgJTG01eR4R
+48mOKs8hi5Aist7fM/0OK8RWnBxP5njs2rgNvSIyd410UsHBvNIJzS78p03SyQe5
+GlflN6AHYsrJAvnRT3kxj5zl1hYYf6H5ib9icOVAjQlEyOeGAvPfRt5Za8FGcDS/
+AgMBAAE=
+-----END PUBLIC KEY-----
+    `,
+    refreshTokenPrivateKey: `
+-----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQB92iozq1QgLH/JZyHIk9FYgM0g4aSsG/Gj9Y7/yhz6BsysS1uG
+qgY3s1bhhlxsTsKrC/L1BYyFleVHkSnuLbxPrP033ulG7V8l8/dhhjIlfTKbawIR
+Ah/VBixtl7zfurFP2t7BdGFPObcXqg+hLIhyDtZSMW23WSI4972/gLYqvtSo3p1z
+0iD6jryvwi4Y3HGrpt7iyxlHvQ3BcU7td0HTJVrXdBNIJO8GKIhJCcZLiYhI2vPI
+BnAQ92xHSWgzwR+bU6ZSt/vtgDGucGNy/PhOk+3aWJJ668DdfsgLVEFcRLBabehT
+E+uNagChy5jGiYTnS5rpXzSK9f925z5U6iCdAgMBAAECggEAMvStV6RL+Ibr6nj2
+Zcbr4UCtTV3vFbxutysKjiigWN996VjNoxWeVNkpGUEUlMnC6gx5f5mSjtflMHfn
+GUetUjlBgWig3RXpC23fQL5b+W/amLDX8lkA2HiabnkcgR2PAz0kKgHcEH7W0h8K
+GwDz8fJt9nOK78yIHba5Pht4Jo/xS/8mlBjZoWDC+l5wT2g+2AFQHxdwDmbeIWKe
+7ay77mok/k0Mmyb2HOrm8RTJbKtCClfSEzm/kENkO+uqX5PlsSoeMeg6WpyZ4EZa
+Xb+kxbAiy28piObsszutZZ9sPPg7HEOT43byWmfCmCnWcGdEox8ASLjfsqg8egDz
+L5x3QQKBgQDH14N2WKB9vOWNGsLBYtoBMPawEmS/txY4meP5fGvH2zPzfxIHCrlt
+QadEF0tqt129ka7jinb9CwzFW4Dtpvz1/ttcbpiSnVRh5HqrA8oP/+Hr0ZV4tpaa
+rS1UlNb/xT/x6Lwo0dvDHUjFUk7+shS/VedgO2HlJ+SUXjfeWIMYTQKBgQChN+MG
+Rd7zTexKmBmrWEvzsb7p4LfcfqFxsdCTIqbCSSfyjmtDH5WAIPBU0T2sNZa1snmd
+4viDm3cMnR4FfiXBYyBMefc3gQR+K83Px9nTaE0R2dEvvl2ueD9OsVxjV9xPVlE9
+xcllLRZZYgZ65XwQoebw7RfYwSl851VSdF1RkQKBgQC2J+prgGNh2UG/+amWDp26
+QkBJw6pT2fYGR7e2nEO+Gz9ibuwmwQ692P83IKicsGFgvx8Txw2on17Xsg12EiU3
+sUOQIDswQPo+dL2fjkerh8kNY6+EJaJngPz1wOmsn8YmocaIyqkvU00Wl2zr2bTx
+psLNQ7N65n8DAlKYeEOebQKBgAQKraNbnxJEctcP5xzXktfiLeIZIyLg/dUm2w7F
+QJ8ATIMVNPUy1oGm0b+em0g087lMZyYhKY/LFvn2+miy1+l4PbgNGriGgIFVQcyi
+uwBEziHTbx4eTKTyGMw1QBaxfjFy/Yhp6/mgXr4Q6g6ssCaOmIaTuxRRC2Q5PHdb
+uXcxAoGAFLt9i05mOLb1O6XijRsVQX2Lk7EI7tHbf6PmqblRB+l9q5bDuvp86jAg
+YpA+ZCNUehbE9pc9uJJ6SCLEWqK0FYoCONIormtLyrmTLS6x+v3GZCtkaTLOuJYT
+8xQCuyoJsWHk66PJ5HLtJ19w1/SCmi2kbkfxE+mTKkLD27E2Xoo=
+-----END RSA PRIVATE KEY-----
+    `,
+    refreshTokenPublicKey: `
+-----BEGIN PUBLIC KEY-----
+MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQB92iozq1QgLH/JZyHIk9FY
+gM0g4aSsG/Gj9Y7/yhz6BsysS1uGqgY3s1bhhlxsTsKrC/L1BYyFleVHkSnuLbxP
+rP033ulG7V8l8/dhhjIlfTKbawIRAh/VBixtl7zfurFP2t7BdGFPObcXqg+hLIhy
+DtZSMW23WSI4972/gLYqvtSo3p1z0iD6jryvwi4Y3HGrpt7iyxlHvQ3BcU7td0HT
+JVrXdBNIJO8GKIhJCcZLiYhI2vPIBnAQ92xHSWgzwR+bU6ZSt/vtgDGucGNy/PhO
+k+3aWJJ668DdfsgLVEFcRLBabehTE+uNagChy5jGiYTnS5rpXzSK9f925z5U6iCd
+AgMBAAE=
+-----END PUBLIC KEY-----
+    `,
   };
   
