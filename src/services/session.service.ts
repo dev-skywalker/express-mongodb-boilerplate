@@ -41,8 +41,8 @@ export async function reIssueAccessToken({
 
   const accessToken = signJwt(
     { ...user, session: session._id },
-    "accessTokenPrivateKey",
-    { expiresIn: config.get("accessTokenTtl") } // 15 minutes
+    //"accessTokenPrivateKey",
+    { expiresIn: config.get<string>("accessTokenTtl") } // 15 minutes
   );
 
   return accessToken;
