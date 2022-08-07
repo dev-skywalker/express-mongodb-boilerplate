@@ -13,3 +13,7 @@ Test Command
 #yarn test
 #yarn test --watchAll
 #yarn test --detectOpenHandles
+
+Swagger
+
+yarn add swagger-jsdoc swagger-ui-express @types/swagger-jsdoc @types/swagger-ui-express
