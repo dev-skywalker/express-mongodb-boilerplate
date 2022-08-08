@@ -17,3 +17,18 @@ Test Command
 Swagger
 
 yarn add swagger-jsdoc swagger-ui-express @types/swagger-jsdoc @types/swagger-ui-express
+
+Docker
+
+docker-compose up 
+docker-compose up -d
+docker-compose up --build
+
+docker ps
+docker logs container-id
+
+docker network ls
+docker network create my_network
+
+docker-compose build --no-cache
+

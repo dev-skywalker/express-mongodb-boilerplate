@@ -9,8 +9,8 @@ import swaggerDocs from "./utils/swagger";
 
 const port = config.get<number>('port');
 
-console.log(config.get('accessTokenPrivateKey'));
-console.log("ggg");
+console.log(config.get('dbUri'));
+console.log("sss");
 
 const app = createServer();
 
